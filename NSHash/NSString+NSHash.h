@@ -25,3 +25,9 @@
 - (NSString*) SHA256;
 
 @end
+
+@interface NSString (NSStringExtensions)
+
+- (NSData *) decodeFromHexidecimal;
+
+@end
